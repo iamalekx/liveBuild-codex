@@ -1,0 +1,54 @@
+:root {
+    --primary-color: rgb(1, 1, 227);
+    --secondary-color: gray;
+    --primary-font: arial;
+    --secondary-font:"times new roman";
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    /* align-items: center; */
+    margin: 10px 20px;
+    font-family: var(--primary-font);
+}
+
+a {
+    text-decoration: none; 
+}
+
+h1 {
+    font-size: 6.5rem;
+    font-family: var(--primary-font);
+    font-weight: 800;
+    line-height: 0.95;
+    /* margin-top: 120px; */
+}
+
+h2 {
+    font-size: 3.5rem;
+    font-family: var(--secondary-font);
+    margin-top: 15px;
+}
+
+p {
+    font-size: 1.2rem;
+    font-family: var(--primary-font);
+    align-items: center;
+    width: 40%;
+    line-height:1.5;
+}
+
+hr {
+    width: 150px;
+    height: 5px;
+    background-image:linear-gradient(to left, rgb(1, 1, 227), rgb(0, 254, 249));
+    margin: 30px 0px 30px;
+}
+
